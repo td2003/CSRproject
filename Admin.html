@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="Fitness.jpg" alt="Logo">
+                <h2>Fitness Center</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">All members</a></li>
+                <li><a href="infoadmin.html">Trainer</a></li>
+                <li><a href="#">Trainee</a></li>
+                <li><a href="#">Health Updates</a></li>
+                <li><a href="#">Member Payments</a></li>
+                <li><a href="#">Plan</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="top-bar">
+                <div class="welcome-msg">
+                    <h1>Welcome Admin!</h1>
+                </div>
+                <div class="search-notifications">
+                    <input type="text" placeholder="Search here">
+                    <div class="notifications">
+                        <span class="bell">&#x1F514;</span>
+                        <span class="settings">&#9881;</span>
+                    </div>
+                    <div class="user">
+                        <img src="image.png" alt="User">
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-stats">
+                <div class="stat-card">
+                    <img src="gym3.jpg" alt="Classes">
+                    <p>Class</p>
+                    <h3>4</h3>
+                </div>
+                <div class="stat-card">
+                    <img src="gym2.jpg" alt="Trainers">
+                    <p>Trainers</p>
+                    <h3>8</h3>
+                </div>
+                <div class="stat-card">
+                    <img src="gym1.jpg" alt="Members">
+                    <p>Members</p>
+                    <h3>20</h3>
+                </div>
+                <div class="stat-card">
+                    <img src="gym3.jpg" alt="Payments">
+                    <p>Payments</p>
+                    <h3>80</h3>
+                </div>
+            </div>
+
+            <div class="new-registrations">
+                <h2>New Registrations</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr. No</th>
+                            <th>Full Name</th>
+                            <th>Contact No.</th>
+                            <th>Class</th>
+                            <th>Period</th>
+                            <th>Time Slot</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Tejas Deshmukh</td>
+                            <td>1234567890</td>
+                            <td>Yoga</td>
+                            <td>2 Months</td>
+                            <td>08:00-09:00</td>
+                        </tr>
+                        <!-- Repeat as necessary -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="trainee-chart">
+                <h2>Total Trainee</h2>
+                <div class="chart">
+                    <div class="chart-info">
+                        <p>Total Trainee: 80</p>
+                        <div class="pie-chart">
+                            <!-- Add your chart library here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

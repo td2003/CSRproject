@@ -1,0 +1,105 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  /* Container */
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('background-image.webp') no-repeat center center/cover;
+    position: relative;
+  }
+  
+  /* Overlay */
+  .login-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Logo */
+  .logo img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Password Visibility Toggle */
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* Links */
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .form-actions a {
+    color: #ffa500;
+    text-decoration: none;
+  }
+  
+  .form-actions a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button */
+  .login-btn {
+    background: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background: #ff8c00;
+  }
+  

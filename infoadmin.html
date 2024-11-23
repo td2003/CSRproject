@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Staff/Trainers</title>
+    <link rel="stylesheet" href="infoadmin.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="Fitness.jpg" alt="Logo">
+                <h2>Fitness Center</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">All members</a></li>
+                <li><a href="#">Trainer</a></li>
+                <li><a href="#">Trainee</a></li>
+                <li><a href="#">Health Updates</a></li>
+                <li><a href="#">Member Payments</a></li>
+                <li><a href="#">Plan</a></li>
+                <li><a href="#">Staff/Trainers</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="top-bar">
+                <div class="welcome-msg">
+                    <h1>Welcome Admin!</h1>
+                </div>
+                <div class="search-add">
+                    <input type="text" placeholder="Search Staff name">
+                    <button class="add-btn">Add Staff/Trainer</button>
+                    <div class="notifications">
+                        <span class="bell">&#x1F514;</span>
+                        <span class="settings">&#9881;</span>
+                    </div>
+                    <div class="user">
+                        <img src="image.png" alt="User">
+                    </div>
+                </div>
+            </div>
+
+            <div class="trainers-table">
+                <h2>Staff/Trainers</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Photo</th>
+                            <th>Staff Name</th>
+                            <th>Contact No.</th>
+                            <th>Profession</th>
+                            <th>Experience</th>
+                            <th>Email Id</th>
+                            <th>Batch</th>
+                            <th>Details</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="image.png" alt="Trainer"></td>
+                            <td>Tejas Deshmukh</td>
+                            <td>1234567890</td>
+                            <td>Yoga</td>
+                            <td>2 Yrs</td>
+                            <td>abc@gmail.com</td>
+                            <td>Morning</td>
+                            <td><a href="#">View Details</a></td>
+                            <td>
+                                <button class="edit-btn">✏</button>
+                                <button class="delete-btn">❌</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="image.png" alt="Trainer"></td>
+                            <td>JAY KADU</td>
+                            <td>1234567890</td>
+                            <td>Yoga</td>
+                            <td>2 Yrs</td>
+                            <td>abc@gmail.com</td>
+                            <td>Morning</td>
+                            <td><a href="#">View Details</a></td>
+                            <td>
+                                <button class="edit-btn">✏</button>
+                                <button class="delete-btn">❌</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="image.png" alt="Trainer"></td>
+                            <td>PRATIK MOTE</td>
+                            <td>1234567890</td>
+                            <td>Yoga</td>
+                            <td>2 Yrs</td>
+                            <td>abc@gmail.com</td>
+                            <td>Morning</td>
+                            <td><a href="#">View Details</a></td>
+                            <td>
+                                <button class="edit-btn">✏</button>
+                                <button class="delete-btn">❌</button>
+                            </td>
+                        </tr>
+                        <!-- Repeat for more trainers -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
